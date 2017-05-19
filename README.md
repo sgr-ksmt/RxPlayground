@@ -4,7 +4,6 @@ Playground with Rx
 ## Required Specs, tools
 - Xcode8.3
 - Swift 3.1
-- Carthage v0.20
 
 ## Libraries
 - RxSwift: v3.4.0
@@ -21,14 +20,15 @@ $ git clone git@github.com:{your_account}/RxPlayground.git
 $ cd path/to/RxPlayground
 ```
 
-### Install libraries
-```bash
-$ carthage update --platform iOS --use-submodules
-```
+This repository has RxSwift's source and compiled frameworks.  
+So you may not execute `carthage bootstrap`.
 
 ### Open workspace
 ```bash
 $ open -a Xcode.app RxPlayground.xcworkspace
 ```
 
+Choose RxPlayground scheme and build once.
+
+### Open main.playground
 Enjoy playground with Rx :tada:
