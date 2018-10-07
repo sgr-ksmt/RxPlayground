@@ -1,12 +1,15 @@
 # RxPlayground
+
 Playground with Rx
 
 ## Required Specs, tools
-- Xcode8.3
-- Swift 3.1
+
+- Xcode10.0
+- Swift 4.2
 
 ## Libraries
-- RxSwift: v3.4.0
+
+- RxSwift: v4.3.1
 
 ## How to use
 
@@ -24,6 +27,7 @@ This repository has RxSwift's source and compiled frameworks.
 So you may not execute `carthage bootstrap`.
 
 ### Open workspace
+
 ```bash
 $ open -a Xcode.app RxPlayground.xcworkspace
 ```
@@ -31,4 +35,5 @@ $ open -a Xcode.app RxPlayground.xcworkspace
 Choose RxPlayground scheme and build once.
 
 ### Open main.playground
+
 Enjoy playground with Rx :tada:
